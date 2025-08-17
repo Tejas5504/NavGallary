@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './AuthPage.css';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://gallary-backend-48bt.onrender.com';
 
 const SignUpPage = () => {
   const [formData, setFormData] = useState({ username: '', password: '' });
