@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './GalleryPage.css'; // We can reuse the gallery styles
 import './ShortcutsPage.css'; // And add our new button styles
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://gallary-backend-48bt.onrender.com';
 
 const ShortcutsPage = () => {
   const [media, setMedia] = useState([]);
