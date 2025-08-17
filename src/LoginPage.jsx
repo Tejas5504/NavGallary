@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from './AuthContext';
 import './AuthPage.css';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://gallary-backend-48bt.onrender.com';
 
 const LoginPage = () => {
   const [formData, setFormData] = useState({ username: '', password: '' });
