@@ -1,0 +1,27 @@
+/* src/ShortcutsPage.css */
+.filter-controls {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filter-controls button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-controls button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter-controls button.active {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
