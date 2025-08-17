@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import './GalleryPage.css'; // We'll create this CSS file next
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://gallary-backend-48bt.onrender.com';
 
 const GalleryPage = () => {
   // State to hold the list of images fetched from the DB
