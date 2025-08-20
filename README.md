@@ -48,6 +48,7 @@ Users can upload, view, delete, and filter images in a clean and responsive inte
 
 - **Node.js**
 - **Express.js**
+- **React**
 - **Multer** – For handling file uploads
 - **JWT** – For secure user authentication tokens
 - **MySQL** - Relational database for storing user and media data
